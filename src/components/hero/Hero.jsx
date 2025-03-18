@@ -8,7 +8,6 @@ import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 // import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-import resumePDF from "../../assets/asim-resume.pdf";
 import skill from "../../assets/frontend.png";
 import Profile from "../../assets/profileImg.png";
 
@@ -49,7 +48,7 @@ const Hero = ({ isDarkMode }) => {
               <span> Hire Me</span>
             </a>
             <a
-              href={resumePDF}
+              href="/assets/Asim-resume.pdf"
               className="flex items-center gap-2 border- text-[1rem] hover:scale-90 bg-gradient-to-t from-[#49C24F] via-[#217425] to-[#176E1C] border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-blue-500"
               download
             >
